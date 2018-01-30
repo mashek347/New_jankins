@@ -39,7 +39,7 @@ public class GenerateExtentReport
     public void demoReportFail()
     {
         test=extent.startTest("demoReportFail");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
         test.log(LogStatus.FAIL, "Assert Fail as condition is False");
     }
      

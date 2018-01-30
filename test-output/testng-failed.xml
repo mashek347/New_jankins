@@ -14,6 +14,7 @@
       <class name="com.HelloWorld.t.App">
         <methods>
           <include name="setupClass"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.HelloWorld.t.App -->
     </classes>
