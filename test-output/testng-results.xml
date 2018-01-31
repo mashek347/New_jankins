@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26604" started-at="2018-01-31T01:46:44Z" finished-at="2018-01-31T01:47:11Z">
+  <suite name="Suite" duration-ms="26255" started-at="2018-01-31T02:01:25Z" finished-at="2018-01-31T02:01:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26604" started-at="2018-01-31T01:46:44Z" finished-at="2018-01-31T01:47:11Z">
+    <test name="Test" duration-ms="26255" started-at="2018-01-31T02:01:25Z" finished-at="2018-01-31T02:01:51Z">
       <class name="com.HelloWorld.t.App">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="startReport" is-config="true" duration-ms="269" started-at="2018-01-30T20:46:44Z" finished-at="2018-01-30T20:46:45Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="startReport" is-config="true" duration-ms="290" started-at="2018-01-30T21:01:25Z" finished-at="2018-01-30T21:01:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="setupClass" is-config="true" duration-ms="7936" started-at="2018-01-30T20:46:45Z" finished-at="2018-01-30T20:46:53Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="setupClass" is-config="true" duration-ms="7399" started-at="2018-01-30T21:01:25Z" finished-at="2018-01-30T21:01:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="FAIL" signature="logo()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="logo" duration-ms="10143" started-at="2018-01-30T20:46:53Z" finished-at="2018-01-30T20:47:03Z">
+        <test-method status="FAIL" signature="logo()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="logo" duration-ms="10073" started-at="2018-01-30T21:01:32Z" finished-at="2018-01-30T21:01:42Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='hplogo1']"}
@@ -27,7 +27,7 @@ Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54
 System info: host: 'LIZA', ip: '192.168.2.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Mashekul\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.119, webStorageEnabled: true}
-Session ID: 8446606e607547e81682fe21f8b3f894
+Session ID: 7373910a4291e131be74c30cea000ad1
 *** Element info: {Using=xpath, value=//img[@id='hplogo1']}]]>
             </message>
             <full-stacktrace>
@@ -40,7 +40,7 @@ Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54
 System info: host: 'LIZA', ip: '192.168.2.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Mashekul\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.119, webStorageEnabled: true}
-Session ID: 8446606e607547e81682fe21f8b3f894
+Session ID: 7373910a4291e131be74c30cea000ad1
 *** Element info: {Using=xpath, value=//img[@id='hplogo1']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -89,7 +89,7 @@ Session ID: 8446606e607547e81682fe21f8b3f894
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="tearDown" is-config="true" duration-ms="1022" started-at="2018-01-30T20:47:03Z" finished-at="2018-01-30T20:47:04Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="tearDown" is-config="true" duration-ms="1313" started-at="2018-01-30T21:01:42Z" finished-at="2018-01-30T21:01:44Z">
           <params>
             <param index="0">
               <value>
@@ -100,15 +100,15 @@ Session ID: 8446606e607547e81682fe21f8b3f894
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="setupClass" is-config="true" duration-ms="6250" started-at="2018-01-30T20:47:04Z" finished-at="2018-01-30T20:47:10Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="setupClass" is-config="true" duration-ms="6236" started-at="2018-01-30T21:01:44Z" finished-at="2018-01-30T21:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="test" duration-ms="13" started-at="2018-01-30T20:47:10Z" finished-at="2018-01-30T20:47:10Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="test" duration-ms="12" started-at="2018-01-30T21:01:50Z" finished-at="2018-01-30T21:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="tearDown" is-config="true" duration-ms="594" started-at="2018-01-30T20:47:10Z" finished-at="2018-01-30T20:47:11Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="tearDown" is-config="true" duration-ms="588" started-at="2018-01-30T21:01:50Z" finished-at="2018-01-30T21:01:50Z">
           <params>
             <param index="0">
               <value>
@@ -119,11 +119,11 @@ Session ID: 8446606e607547e81682fe21f8b3f894
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="endReport" is-config="true" duration-ms="351" started-at="2018-01-30T20:47:11Z" finished-at="2018-01-30T20:47:11Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="endReport" is-config="true" duration-ms="326" started-at="2018-01-30T21:01:50Z" finished-at="2018-01-30T21:01:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.HelloWorld.t.App -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

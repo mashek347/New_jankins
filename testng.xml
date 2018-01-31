@@ -3,7 +3,6 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="com.HelloWorld.t.GenerateExtentReport"/>
       <class name="com.HelloWorld.t.App"/>
     </classes>
   </test> <!-- Test -->

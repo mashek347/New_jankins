@@ -39,7 +39,7 @@ public class App {
 	  @BeforeTest
 	    public void startReport()
 	    {
-	        extent = new ExtentReports(System.getProperty("user.dir") +"/test-output/MyOwnReport.html", true);
+	        extent = new ExtentReports(System.getProperty("user.dir") +"/test-output/ExtendReport.html", true);
 	        extent
 	        .addSystemInfo("Host Name", "Mashek")
 	        .addSystemInfo("Environment", "QA")
