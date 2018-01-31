@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.HelloWorld.t.GenerateExtentReport">
-        <methods>
-          <include name="startReport"/>
-          <include name="demoReportFail"/>
-          <include name="getResult"/>
-          <include name="endreport"/>
-        </methods>
-      </class> <!-- com.HelloWorld.t.GenerateExtentReport -->
       <class name="com.HelloWorld.t.App">
         <methods>
           <include name="setupClass"/>
-          <include name="teardown"/>
+          <include name="logo"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.HelloWorld.t.App -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

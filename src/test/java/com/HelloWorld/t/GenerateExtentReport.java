@@ -11,10 +11,10 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
  
-public class GenerateExtentReport
+public class GenerateExtentReport extends ScreenShot
 {
-    ExtentReports extent;
-    ExtentTest test;
+    static ExtentReports extent;
+    static ExtentTest test;
          
     @BeforeTest
     public void startReport()
@@ -30,7 +30,7 @@ public class GenerateExtentReport
     @Test
     public void demoReportPass()
     {
-        test=extent.startTest("demoReportPass");
+        test=extent.startTest("Test is Pass");
         Assert.assertTrue(true);
         test.log(LogStatus.PASS, "Assert Pass as condition is True");
     }
@@ -38,7 +38,7 @@ public class GenerateExtentReport
     @Test
     public void demoReportFail()
     {
-        test=extent.startTest("demoReportFail");
+        test=extent.startTest("Test is Fail");
         Assert.assertTrue(true);
         test.log(LogStatus.FAIL, "Assert Fail as condition is False");
     }
