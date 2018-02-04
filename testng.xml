@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.HelloWorld.t.App"/>
+      <class name="com.HelloWorld.t.ScreenShot"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
