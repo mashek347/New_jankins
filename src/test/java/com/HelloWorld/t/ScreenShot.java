@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class ScreenShot {
 	
 	@Test
-public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException{
+public String getScreenshot(WebDriver driver, String screenshotName) throws IOException{
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);

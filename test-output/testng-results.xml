@@ -2,55 +2,47 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="26255" started-at="2018-01-31T02:01:25Z" finished-at="2018-01-31T02:01:51Z">
+  <suite name="Default suite" duration-ms="35926" started-at="2018-02-04T15:09:58Z" finished-at="2018-02-04T15:10:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26255" started-at="2018-01-31T02:01:25Z" finished-at="2018-01-31T02:01:51Z">
+    <test name="Default test" duration-ms="35926" started-at="2018-02-04T15:09:58Z" finished-at="2018-02-04T15:10:34Z">
       <class name="com.HelloWorld.t.App">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="startReport" is-config="true" duration-ms="290" started-at="2018-01-30T21:01:25Z" finished-at="2018-01-30T21:01:25Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="startReport" is-config="true" duration-ms="295" started-at="2018-02-04T10:09:58Z" finished-at="2018-02-04T10:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="setupClass" is-config="true" duration-ms="7399" started-at="2018-01-30T21:01:25Z" finished-at="2018-01-30T21:01:32Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="setupClass" is-config="true" duration-ms="15350" started-at="2018-02-04T10:09:58Z" finished-at="2018-02-04T10:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="FAIL" signature="logo()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="logo" duration-ms="10073" started-at="2018-01-30T21:01:32Z" finished-at="2018-01-30T21:01:42Z">
+        <test-method status="FAIL" signature="logo()[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="logo" duration-ms="10186" started-at="2018-02-04T10:10:13Z" finished-at="2018-02-04T10:10:24Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='hplogo1']"}
-  (Session info: chrome=64.0.3282.119)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[Unable to locate element: //img[@id='hplogo1']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'LIZA', ip: '192.168.2.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Mashekul\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.119, webStorageEnabled: true}
-Session ID: 7373910a4291e131be74c30cea000ad1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14284, moz:profile: C:\Users\Mashekul\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d9b9627-2805-4916-b858-ca0f7410855e
 *** Element info: {Using=xpath, value=//img[@id='hplogo1']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@id='hplogo1']"}
-  (Session info: chrome=64.0.3282.119)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //img[@id='hplogo1']
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'LIZA', ip: '192.168.2.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Mashekul\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.119, webStorageEnabled: true}
-Session ID: 7373910a4291e131be74c30cea000ad1
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 58.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 14284, moz:profile: C:\Users\Mashekul\AppData\L..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9d9b9627-2805-4916-b858-ca0f7410855e
 *** Element info: {Using=xpath, value=//img[@id='hplogo1']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
@@ -58,7 +50,7 @@ Session ID: 7373910a4291e131be74c30cea000ad1
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at com.HelloWorld.t.App.logo(App.java:83)
+	at com.HelloWorld.t.App.logo(App.java:79)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,41 +81,41 @@ Session ID: 7373910a4291e131be74c30cea000ad1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="tearDown" is-config="true" duration-ms="1313" started-at="2018-01-30T21:01:42Z" finished-at="2018-01-30T21:01:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="tearDown" is-config="true" duration-ms="404" started-at="2018-02-04T10:10:24Z" finished-at="2018-02-04T10:10:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logo status=FAILURE method=App.logo()[pri:0, instance:com.HelloWorld.t.App@7a79be86] output={null}]]]>
+                <![CDATA[[TestResult name=logo status=FAILURE method=App.logo()[pri:0, instance:com.HelloWorld.t.App@34ce8af7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="setupClass" is-config="true" duration-ms="6236" started-at="2018-01-30T21:01:44Z" finished-at="2018-01-30T21:01:50Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="setupClass" is-config="true" duration-ms="9091" started-at="2018-02-04T10:10:24Z" finished-at="2018-02-04T10:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="test" duration-ms="12" started-at="2018-01-30T21:01:50Z" finished-at="2018-01-30T21:01:50Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="test" duration-ms="13" started-at="2018-02-04T10:10:33Z" finished-at="2018-02-04T10:10:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="tearDown" is-config="true" duration-ms="588" started-at="2018-01-30T21:01:50Z" finished-at="2018-01-30T21:01:50Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="tearDown" is-config="true" duration-ms="220" started-at="2018-02-04T10:10:33Z" finished-at="2018-02-04T10:10:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test status=SUCCESS method=App.test()[pri:0, instance:com.HelloWorld.t.App@7a79be86] output={null}]]]>
+                <![CDATA[[TestResult name=test status=SUCCESS method=App.test()[pri:0, instance:com.HelloWorld.t.App@34ce8af7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.HelloWorld.t.App@7a79be86]" name="endReport" is-config="true" duration-ms="326" started-at="2018-01-30T21:01:50Z" finished-at="2018-01-30T21:01:51Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.HelloWorld.t.App@34ce8af7]" name="endReport" is-config="true" duration-ms="338" started-at="2018-02-04T10:10:33Z" finished-at="2018-02-04T10:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.HelloWorld.t.App -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

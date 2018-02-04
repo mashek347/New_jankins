@@ -10,6 +10,7 @@
           <include name="endReport"/>
           <include name="startReport"/>
           <include name="tearDown"/>
+          <include name="test"/>
         </methods>
       </class> <!-- com.HelloWorld.t.App -->
     </classes>
