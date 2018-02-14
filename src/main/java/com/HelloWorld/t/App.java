@@ -53,7 +53,7 @@ public class App {
 		 * driver.get("https://www.google.com/");
 		 */
 		driver = lunch.Url();
-		
+
 	}
 
 	// Start test cases from here
@@ -63,8 +63,8 @@ public class App {
 		extentTest = extent.startTest("test");
 		String title = driver.getTitle();
 		System.out.println(title);
-		
-		
+
+
 		Assert.assertEquals(title, "Google");
 
 		System.out.println("Hello World!");
@@ -105,25 +105,25 @@ public class App {
 
 		if (result.getStatus() == ITestResult.FAILURE) {
 			extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getName()); // to
-																						// add
-																						// name
-																						// in
-																						// extent
-																						// report
+			// add
+			// name
+			// in
+			// extent
+			// report
 			extentTest.log(LogStatus.FAIL, "TEST CASE FAILED IS " + result.getThrowable()); // to
-																							// add
-																							// error/exception
-																							// in
-																							// extent
-																							// report
+			// add
+			// error/exception
+			// in
+			// extent
+			// report
 
 			String screenshotPath = App.getScreenshot(driver, result.getName());
 			extentTest.log(LogStatus.FAIL, extentTest.addScreenCapture(screenshotPath)); // to
-																							// add
-																							// screenshot
-																							// in
-																							// extent
-																							// report
+			// add
+			// screenshot
+			// in
+			// extent
+			// report
 			// extentTest.log(LogStatus.FAIL,
 			// extentTest.addScreencast(screenshotPath)); //to add
 			// screencast/video in extent report
@@ -135,7 +135,7 @@ public class App {
 		}
 
 		extent.endTest(extentTest); // ending test and ends the current test and
-									// prepare to create html report
+		// prepare to create html report
 		driver.quit();
 	}
 }
